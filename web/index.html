@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Ars VehicleShop</title>
+</head>
+
+<body>
+
+
+    <div class="container">
+        <div class="server-name">Arius Development</div>
+
+        <div class="disconnect" onclick="openConfermBox()">
+            <img src="images/quit-icon.png" alt="">
+            <div>Disconnect</div>
+        </div>
+
+        <div class="elements">
+            <div class="player-info element" id="player-info">
+
+                <h1 id="playerName">Player Name</h1>
+
+                <div class="logo">
+                    <img src="images/logo.png" alt="">
+                </div>
+                <div class="player-id" id="player-id">ID: 102</div>
+
+                <div class="general-info">
+
+                    <div class="general-information info-container-title">General Informations</div>
+
+                    <div class="info-container">
+                        <div class="gender-box info-title">
+                            <h1>Gender</h1>
+                            <i class="fa-solid fa-credit-card"></i>
+                            <h3 class="gender info" id="gender">Gender</h3>
+                        </div>
+                        <div class="job-box info-title">
+                            <h1>Job</h1>
+                            <h3 class="job info" id="job">Job</h3>
+                        </div>
+                        <div class="dob-box info-title">
+                            <h1>Date of birth</h1>
+                            <h3 class="dob info" id="dob">Date of birth</h3>
+                        </div>
+                    </div>
+
+                    <div class="financial-information info-container-title">Financial informations</div>
+                    <div class="info-container">
+                        <div class="cash-box info-title">
+                            <h1>Money</h1>
+                            <h3 class="cash info" id="cash">$ 1000</h3>
+                        </div>
+                        <div class="bank-box info-title">
+                            <h1>Bank</h1>
+                            <h3 class="bank info" id="bank">Bank</h3>
+                        </div>
+                        <div class="total-money-box info-title">
+                            <h1>Total</h1>
+                            <h3 class="total-money info" id="total-money">Total</h3>
+                        </div>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+
+
+            <div class="map element" id="map" onclick="openMap()">
+                <h1>Fivem Map</h1>
+                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, possimus!</p>
+
+            </div>
+
+            <div class="settings element" id="settings" onclick="openSettings()">
+                <h1>Settings</h1>
+                <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, possimus!</p>
+
+                <img src="images/settings-model.png" alt="">
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <div class="conferm-container" id="conferm-container">
+        <div class="box">
+            <h1>Are you sure?</h1>
+
+            <div>
+                <button class="conferm f-button" onclick="disconnect()">Conferm</button>
+                <button class="cancel f-button" onclick="cancelDisconnect()">Cancel</button>
+            </div>
+
+        </div>
+    </div>
+
+</body>
+
+<script src="js/app.js"></script>
+
+</html>
