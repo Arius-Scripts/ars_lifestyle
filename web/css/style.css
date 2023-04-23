@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@600&family=PT+Sans&display=swap');
+
+body {
+    overflow: hidden;
+}
+
+.container {
+    height: 100vh;
+    background: linear-gradient(173deg, rgba(0,0,0,1) 0%, rgba(48,74,74,1) 96%);
+    display: none;
+}
+
+.box-lifestyle {
+    height: 100%;
+    display: flex;
+    gap: 10vw;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.box {
+    height: 60vh;
+    width: 20vw;
+    background: linear-gradient(173deg, rgba(26, 27, 26, 0.572) 0%, rgba(48,74,74,1) 96%);
+
+    border-radius: 5px;
+    transition: all 0.4s;
+
+}
+
+.box:hover {
+    transform: scale(1.2);
+}
+
+
+.title {
+    font-family: 'Libre Franklin', sans-serif;
+    color: white;
+    margin-left: 10%;
+
+}
+.description {
+    font-family: 'PT Sans', sans-serif;
+    color: rgba(217, 221, 221, 0.804);
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+
+.civil img {
+    margin-top: 20%;
+    margin-left: -260px;
+    width: 650px;
+}
+
+.business img {
+    margin-top: 26%;
+}
+
+
+.gangster img {
+    width: 400px;
+}
+
+.items-title {
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 1.3em;
+    color: rgb(203, 216, 215);
+    text-align: center;
+    margin-top: 10%;
+}
+
+.items {
+    width: 100%;
+    color: rgba(228, 234, 230, 0.776);
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 5%;
+}
+
+.item {
+    font-family: 'PT Sans', sans-serif;
+    max-width: 100px;
+    word-wrap: break-word;
+}
+
